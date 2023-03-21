@@ -1,5 +1,5 @@
 const {SlashCommandBuilder} = require('discord.js');
-const quoteJSON = require('C:/Users/noahp/Desktop/moonbot2/json/quoteList.json');
+const quoteJSON = require(''); // Put the directory of where the "quoteList.json" file is on your machine here
 
 module.exports = {
     data: new SlashCommandBuilder()
