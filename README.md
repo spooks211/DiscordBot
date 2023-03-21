@@ -3,7 +3,7 @@
 <p>Please note, some of the files are unannotated, purely because there's some commands that are near duplicates, if that's the case at least one of them will be fully annotated</p>
 
 <h2>Prerequisites</h2>
-<p>Before you can run this bot, you will need to have Node.js and npm installed on your machine.</p>
+<p>Before you can run this bot, you will need to have Node.js installed on your machine.</p>
 
 <h2>Configuration</h2>
 <p>
