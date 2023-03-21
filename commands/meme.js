@@ -2,7 +2,7 @@
 const { SlashCommandBuilder } = require('discord.js');
 
 // Import the JSON data containing memes
-const memeJSON = require('C:/Users/noahp/Desktop/moonbot2/json/memesList.json')
+const memeJSON = require('') // Put the directory of where the "memesList.json" file is on your machine here
 
 // Export an object containing a 'data' property (which is a new SlashCommandBuilder instance)
 // and an 'execute' method that sends a random meme in a reply
