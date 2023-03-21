@@ -29,7 +29,7 @@ To configure the bot, follow these steps:
 <code>node bot.js</code>
 
 <h2>Pre-Populating JSON Files</h2>
-<p>You may pre-populate the **memesList.json** and **quoteList.json** files if you wish. NOTE: putting non-URLs into **memesList.json** manually may break it.</p>
+<p>You may pre-populate the "memesList.json" and "quoteList.json" files if you wish. NOTE: putting non-URLs into "memesList.json" manually may break it.</p>
 
 <h2>License</h2>
 <p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
