@@ -24,7 +24,7 @@ module.exports = {
     data.memes.push(url);
 
     // Write the updated JSON file back to disk
-    fs.writeFileSync('C:/Users/noahp/Desktop/moonbot2/json/memesList.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync('', JSON.stringify(data, null, 2));
 
     // Send a reply to the user indicating the URL was added successfully
     await interaction.reply(`Added ${url} successfully to the list!`);
