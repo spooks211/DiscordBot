@@ -18,7 +18,7 @@ module.exports = {
     }
 
     // Load the JSON file containing the list of memes
-    let data = JSON.parse(fs.readFileSync('C:/Users/noahp/Desktop/moonbot2/json/memesList.json'));
+    let data = JSON.parse(fs.readFileSync(''));
 
     // Add the URL to the JSON file's 'memes' array
     data.memes.push(url);
