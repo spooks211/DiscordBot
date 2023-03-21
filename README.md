@@ -1,6 +1,6 @@
 <h1>Discord Bot</h1>
 <p>This is a bot that I made for my friend's discord server.</p>
-<p>*Please note, some of the files are unannotated, purely because there's some commands that are near duplicates, if that's the case at least one of them will be fully annotated*</p>
+<p>_Please note, some of the files are unannotated, purely because there's some commands that are near duplicates, if that's the case at least one of them will be fully annotated_</p>
 
 <h2>Prerequisites</h2>
 <p>Before you can run this bot, you will need to have Node.js and npm installed on your machine.</p>
