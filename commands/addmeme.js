@@ -18,13 +18,13 @@ module.exports = {
     }
 
     // Load the JSON file containing the list of memes
-    let data = JSON.parse(fs.readFileSync('')); // Put the directory of where the "memesList.json" file is on your machine here
+    let data = JSON.parse(fs.readFileSync('/*Put the directory of where the "memesList.json" file is on your machine here*/')); 
 
     // Add the URL to the JSON file's 'memes' array
     data.memes.push(url);
 
     // Write the updated JSON file back to disk
-    fs.writeFileSync('', JSON.stringify(data, null, 2)); // Put the directory of where the "memesList.json" file is on your machine here
+    fs.writeFileSync('/*Put the directory of where the "memesList.json" file is on your machine here*/', JSON.stringify(data, null, 2)); 
 
     // Send a reply to the user indicating the URL was added successfully
     await interaction.reply(`Added ${url} successfully to the list!`);
