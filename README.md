@@ -12,7 +12,7 @@ To configure the bot, follow these steps:
 1. Open the **config.json** file in a text or code editor.
 2. Put in your bot token, bot's clientID, and serverID (guildID) in the empty quotes.
 3. Save the file.
-4. You will need to add the specific paths to the two JSON files that are in the **json** folder to **meme.js**, **quote.js**, **addquote.js** and **addmeme.js**, Where specifically in the file the path needs to be added is annotated inside the file. 
+4. You will need to add the specific paths to the two JSON files that are in the **json** folder to **meme.js**, **quote.js**, **addquote.js** and **addmeme.js**, Where specifically in the file the path needs to be added is annotated inside the file. The javascript files can be found inside the **commands** folder.
 5. Save the file(s).
 </p>
 
