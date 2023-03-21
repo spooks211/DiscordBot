@@ -9,9 +9,9 @@ module.exports = {
     async execute(interaction){
         const quote = interaction.options.getString('quote');
 
-        let data = JSON.parse(fs.readFileSync('')); // Put the directory of where the "quoteList.json" file is on your machine here
+        let data = JSON.parse(fs.readFileSync('// Put the directory of where the "quoteList.json" file is on your machine here')); 
         data.quotes.push(quote);
-        fs.writeFileSync('', JSON.stringify(data, null, 2)); // Put the directory of where the "quoteList.json" file is on your machine here
+        fs.writeFileSync('//Put the directory of where the "quoteList.json" file is on your machine here', JSON.stringify(data, null, 2));
 
         await interaction.reply(`Added "${quote}" sucessfully to the list!`);
     },
